@@ -1,0 +1,1032 @@
+body {
+  font-family: 'jazeera', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.custom-navbar {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.custom-navbar .navbar-brand {
+  padding: 0px;
+}
+
+.custom-navbar .navbar-nav .active a {
+  color: rgb(0, 151, 156);
+  background-color: white;
+  border-bottom: 1px solid  rgb(0, 151, 156);
+}
+
+.custom-navbar .navbar-nav > li a:hover {
+  color: rgb(0, 151, 156);
+  background-color: #eeeeee;
+}
+
+.custom-navbar .navbar-nav > li a:active {
+  color: rgb(0, 151, 156);
+  background-color: silver;
+}
+
+#carousel-about {
+  height: 450px;
+}
+
+#carousel-about .item img {
+  height: 450px;
+  width: 100%;
+}
+
+#carousel-about .container-fluid {
+  padding: 0px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(23, 187, 199, 0.103);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+}
+
+.title2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  width: 60%;
+  line-height: 2em;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.custom-btn {
+  padding-top: 10px 20px;
+  color: rgb(5, 139, 126);
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  background-color: yellow;
+}
+
+.custom-btn:hover {
+  color: tomato;
+  background-color: black;
+}
+
+#carousel-about .custom-carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}
+
+#carousel-about .custom-carousel-indicators li.active {
+  height: 17px;
+  width: 17px;
+  border: 3px solid white;
+}
+
+.custom-carousel-indicators {
+  padding: 0;
+}
+
+.overlay-web {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.63);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: rgb(13, 139, 127);
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-bottom: 45px;
+  position: relative;
+  top: 15px;
+}
+
+.paragraph {
+  line-height: 2em;
+  margin: 10px 20px;
+  font-size: 18px;
+}
+
+.btn-about {
+  width: 150px;
+  margin-top: 10px;
+  color: rgb(5, 139, 126);
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  background-color: yellow;
+}
+
+.btn-about:hover {
+  color: tomato;
+  background-color: black;
+}
+
+#latest-projects {
+  background: #feca57;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  border: 1px solid #feca57;
+  box-shadow: -5px 5px 5px gray;
+}
+
+#latest-company-projects {
+  width: 80%;
+  left: 10%;
+}
+
+.projects-thumbnail {
+  position: relative;
+  width: 300px;
+  height: 175px;
+  bottom: 12px;
+}
+
+.projects-thumbnail >img {
+  width: 100%;
+  height: 100%;
+}
+
+/****
+
+.title1, .title2, .p, a, h2{
+    animation: text 1s 1;
+    animation: ;
+}
+
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -20%;
+    }
+    30%{
+        letter-spacing: 10px;
+        margin-bottom: -20px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -20px;
+    }
+}
+    
+****/
+
+.project-thumbnail-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.459);
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 5%;
+  display: none;
+}
+
+.custom-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.project-category {
+  position: absolute;
+  background: rgba(6, 123, 158, 0.753);
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  left: 0px;
+  top: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -3px 3px 5px rgba(4, 155, 130, 0.384);
+}
+
+.custom-btn-project {
+  width: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  outline: none;
+  background-color: orangered;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.custom-btn-project:hover {
+  color: black;
+  background-color: yellow;
+}
+
+/***
+
+.custom-carousel-control .right, .custom-carousel-control .left {
+    background: none;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    width: 0%;
+}
+
+.custom-carousel-control >i{
+    position: absolute;
+    top: calc(50% - 20px);
+}
+
+****/
+
+.custom-carousel-control.right,
+.custom-carousel-control.left {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+}
+
+.custom-carousel-control >i {
+  position: absolute;
+  top: calc(50% - 20px);
+}
+
+.custom-carousel-control.right >i {
+  left: -50px;
+}
+
+.custom-carousel-control.left >i {
+  right: 0px;
+}
+
+.custom-carousel-control {
+  background: none;
+  text-shadow: none;
+}
+
+.custom-carousel-control.left {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+  width: 0%;
+}
+
+.custom-img {
+  border-radius: 10px;
+  margin: 15px 10px;
+}
+
+.custom-title1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.custom-title2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgb(27, 26, 26);
+}
+
+#clients {
+  background-color: #feca57;
+  padding-bottom: 20px;
+  border: 1px solid #feca57;
+  box-shadow: -5px 5px 5px gray;
+}
+
+.custom-heading {
+  font-size: 24px;
+  color: rgb(13, 139, 127);
+  text-align: center;
+}
+
+.client {
+  width: 165px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32px;
+  right: 0;
+}
+
+.clients-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-thumbnail >img {
+  width: 100%;
+}
+
+.custom-thumbnail {
+  border: none;
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.custom-caption {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: -20px;
+  background-color: white;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.custom-btn-blog {
+  background-color: orangered;
+  color: whitesmoke;
+  border: 1px solid orangered;
+  font-size: 14px;
+}
+
+#footer {
+  height: 420px;
+  background-color: gray;
+  margin: 0;
+}
+
+#footer h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#footer-nav-links a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer-nav-links a:hover {
+  color: tomato;
+  font-size: 14px;
+}
+
+#footer-nav-links {
+  margin-bottom: 30px;
+}
+
+#footer hr {
+  width: 60%;
+  border-top: 2px solid gold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#footer .hr-small {
+  border-top: 3px solid gold;
+  width: 5%;
+}
+
+.custom-label {
+  color: white;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.web-desing {
+  position: relative;
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+#footer input {
+  background-color: rgba(0, 0, 0, 0.411);
+  border: 0px;
+  border-radius: 2px;
+}
+
+#footer input:focus {
+  border-color: gray;
+  box-shadow: -1px 1px 2px gray;
+}
+
+#footer .custom-btn-footer {
+  color: black;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 1px;
+}
+
+#footer .custom-btn-footer:hover {
+  background-color: gray;
+  color: whitesmoke;
+  outline: none;
+  transition-duration: 0.5s;
+}
+
+#footer .custom-btn-footer:focus {
+  background-color: yellowgreen;
+  color: black;
+  outline: none;
+  transition-duration: 0.5s;
+}
+
+/* نهاية تنسيق الصفحة الرئيسية */
+
+@media (max-width:991px) {
+  .overlay .title1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .overlay .title2 {
+    width: 90%;
+  }
+
+  .custom-btn {
+    margin-bottom: 10px;
+  }
+
+  .paragraph {
+    margin: 0px;
+  }
+
+  .projects-thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .web-desing {
+    position: relative;
+    margin-top: -20px auto;
+  }
+
+  .navbar-right {
+    text-align: right;
+  }
+
+  .custom-navbar .navbar-nav .active a {
+    border-bottom: none;
+  }
+
+  .custom-carousel-control.left >i {
+    right: -40px;
+  }
+}
+
+/* نهاية التوافق مع الشاشات الكبيرة والصغيرة */
+
+#banner > img {
+  height: 250px;
+  width: 100%;
+}
+
+#banner {
+  padding: 0px;
+}
+
+.title-banner {
+  font-weight: bolder;
+  color: #ff9f43;
+}
+
+.banner-style {
+  border: 2px solid black;
+  background: black;
+  padding: 25px;
+  padding-top: 10px;
+  opacity: 0.7;
+}
+
+.team {
+  width: 350px;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  padding: 50px 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.full-name {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(22, 21, 21);
+}
+
+.emp-position {
+  color: #576574;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.emp-hr {
+  width: 15%;
+  border-top: 2px solid #feca57;
+  margin-bottom: 20px;
+}
+
+.emp-description {
+  font-size: 15px;
+  margin: 14px 0px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.social-about {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-social {
+  border: 1px solid gray;
+  height: 45px;
+  width: 45px;
+  float: right;
+  border-radius: 3px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-social > a {
+  text-decoration: none;
+  color: #8395a7;
+}
+
+.one-social:hover > a {
+  color: white;
+}
+
+.facebook:hover {
+  background-color: #4267B2;
+}
+
+.instagram:hover {
+  background-color: #3f729b;
+}
+
+.twitter:hover {
+  background-color: #00acee;
+}
+
+@media (max-width:991px) {
+  .team {
+    width: 100%;
+    padding: 20px 15px;
+    margin-left: 10px;
+  }
+}
+
+/* نهاية تنسق قسم عن الشركة */
+
+.custom-projects-thumbnail {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.projects-desc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+.custom-btn-primary {
+  background-color: #e67e22;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  margin-left: calc(50% - 64px);
+}
+
+.custom-btn-primary:hover {
+  background-color: gray;
+  color: white;
+  border: 1px solid gray;
+}
+
+.custom-btn-category {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  font-weight: bold;
+  background-color: #f0932b;
+  color: white;
+  width: 70px;
+  border: none;
+  border-radius: 0px;
+  border: 1px solid #f0932b;
+}
+
+.custom-btn-category:hover {
+  background-color: #22a6b3;
+  color: whitesmoke;
+}
+
+.title-projects {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-projects {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.btn-projects {
+  background-color: #f9ca24;
+  width: 150px;
+  margin-right: calc(50% - 75px);
+  font-weight: bolder;
+  padding: 12px;
+  font-size: 18px;
+  margin-left: 43%;
+}
+
+.btn-projects:hover {
+  background-color: #22a6b3;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+@media (max-width:991px) {
+  .thumbnail > img,
+  .thumbnail a > img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .btn-projects {
+    margin-left: 36%;
+  }
+
+  .custom-btn-primary {
+    margin-right: 125px;
+  }
+}
+
+/* نهاية تنسيق صفحة الأعمال والمشاريع*/
+
+#blog-summary {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.custom-media {
+  border: 1px solid #afb5bd;
+  border-radius: 2px;
+}
+
+.custom-media-object {
+  height: 171px;
+  width: 220px;
+}
+
+.custom-media-body {
+  padding: 10px;
+}
+
+.blog-summary-paragraph {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222f3e;
+  text-align: justify;
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.custom-media-btn {
+  background-color: #ff9f43;
+  color: whitesmoke;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.custom-media-btn:hover {
+  background-color: #576574;
+  color: white;
+  border: 1px solid #bdc7d1;
+}
+
+.search-box {
+  border: 0px solid #eeeeee;
+  margin-top: -405px;
+  padding: 15px;
+  width: 80%;
+  box-shadow: 0px 1px 1px 1px #eeeeee;
+}
+
+.line {
+  border-top: 2px solid #eeeeee;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  width: 40%;
+  margin-right: 70px;
+}
+
+.custom-btn-search {
+  position: absolute;
+  float: left;
+  margin-right: -3px;
+  background-color: #ff9f43;
+  color: white;
+  font-weight: bolder;
+}
+
+.custom-btn-search:hover {
+  background-color: #48dbfb;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 767px) {
+  .custom-media-object {
+    display: none;
+  }
+
+  .search-box {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .line {
+    width: 50%;
+    margin-right: 5px;
+  }
+
+  .title-box {
+    text-align: right;
+  }
+}
+
+@media (max-width: 991px) {
+  .search-box {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .line {
+    width: 50%;
+    margin-right: 5px;
+  }
+
+  .title-box {
+    text-align: right;
+  }
+}
+
+/* نهاية تنسق صفحة المدونة */
+
+.blog-img {
+  margin-top: 35px;
+}
+
+.blog-img > img {
+  width: 635px;
+}
+
+.blog-details {
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.line-blog-details {
+  border: 1px solid #eeeeee;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blog-title {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #f0932b;
+}
+
+.blog-date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8395a7;
+}
+
+.blog-details > p {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.8em;
+  text-align: justify;
+}
+
+.blog-title2 {
+  color: #576574;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.share-text {
+  color: chocolate;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.social-share > a {
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.social-share > a.facebook {
+  background-color: #3b5998;
+}
+
+.social-share > a.instagram {
+  background-color: #3F729B;
+}
+
+.social-share > a.twitter {
+  background-color: #00ACEE;
+}
+
+.social-share > a.linkedin {
+  background-color: #0e76a8;
+}
+
+.social-share > a.facebook:hover {
+  background-color: #ffffff;
+  color: #3b5998;
+  transition-duration: 0.5s;
+}
+
+.social-share > a.instagram:hover {
+  background-color: #ffffff;
+  color: #3F729B;
+  transition-duration: 0.5s;
+}
+
+.social-share > a.twitter:hover {
+  background-color: #ffffff;
+  color: #00ACEE;
+  transition-duration: 0.5s;
+}
+
+.social-share > a.linkedin:hover {
+  background-color: #ffffff;
+  color: #0e76a8;
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .blog-img > img {
+    width: 100%;
+  }
+}
+
+/* نهاية تنسيق صفحة تفاصيل التدوينة */
+
+.contact-title {
+  font-size: 26px;
+  font-weight: bolder;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.custom-form-control {
+  color: #576574;
+  border: 1px solid #8395a7;
+  box-shadow: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-form-control:focus {
+  border-color: #e67e22;
+  box-shadow: none;
+}
+
+.custom-btn-main {
+  background-color: #e67e22;
+  color: white;
+  width: 150px;
+  padding: 15px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eeeeee;
+}
+
+.custom-btn-main:hover {
+  background-color: #0984e3;
+  color: whitesmoke;
+}
+
+#contact-info {
+  margin-top: 95px;
+  font-weight: bold;
+  line-height: 2.5em;
+  margin-right: 90px;
+}
+
+#contact-info i {
+  color: #ff9f43;
+  margin: 5px;
+  text-align: center;
+}
+
+.one-social-media {
+  border: 1px solid gray;
+  height: 45px;
+  width: 45px;
+  float: right;
+  border-radius: 100%;
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#custom-social-about {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 17px;
+  background-color: white;
+}
+
+.one-social-media:hover {
+  background-color: black;
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .one-social-media {
+    margin-bottom: 20px;
+  }
+
+  #contact-info {
+    margin-top: 50px;
+  }
+}
+
+/* نهاية تنسيق صفحة تواصل معنا*/
